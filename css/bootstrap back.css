@@ -732,7 +732,6 @@ progress {
 .col-10 {
   flex: 0 0 auto;
   width: 83.3333333333%;
-  margin-top: -30%;
 }
 
 .col-11 {
@@ -1135,7 +1134,6 @@ progress {
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
-    margin-top: -50%;
   }
 
   .col-md-7 {
@@ -1146,7 +1144,6 @@ progress {
   .col-md-8 {
     flex: 0 0 auto;
     width: 66.6666666667%;
-    margin-top: -40%;
   }
 
   .col-md-9 {
@@ -1350,7 +1347,6 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
-    margin-top: -55%;
   }
 
   .col-lg-7 {
@@ -10676,11 +10672,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-
-
-@media (min-width: 768px) {
-  .col-md {
-    flex: 1 0 0%;
-  }
 
 /*# sourceMappingURL=bootstrap.css.map */
