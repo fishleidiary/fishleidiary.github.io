@@ -14,6 +14,7 @@ $(function () {
       .delay(300)
       .fadeIn(250);
   });
+  
   $(".nav-item3").click(function () {
     $(".container1,.container2").fadeOut(0);
     $(".container3")
