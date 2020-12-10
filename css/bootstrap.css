@@ -732,12 +732,12 @@ progress {
 .col-10 {
   flex: 0 0 auto;
   width: 83.3333333333%;
-  margin-top: 0%;
 }
 
 .col-11 {
   flex: 0 0 auto;
   width: 91.6666666667%;
+  margin-top: -25%;
 }
 
 .col-12 {
@@ -1350,12 +1350,13 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
-    margin-top: -55%;
+    margin-top: -45%;
   }
 
   .col-lg-7 {
     flex: 0 0 auto;
     width: 58.3333333333%;
+   
   }
 
   .col-lg-8 {
@@ -3126,7 +3127,7 @@ textarea.form-control-lg {
   background-color: #1c1f23;
   border-color: #1a1e21;
 }
-.btn-check:focus + .btn-dark, .btn-dark:focus {
+.btn-check:focus + .btn-dark, .btn-dark:focus {ss
   color: #fff;
   background-color: #1c1f23;
   border-color: #1a1e21;
@@ -5711,10 +5712,10 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 25%;
   color: #fff;
   text-align: center;
-  opacity: 0.2;
+  opacity: 0.3;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5723,13 +5724,13 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.carousel-control-prev:hover, .carousel-control-prev:focus,
-.carousel-control-next:hover,
-.carousel-control-next:focus {
+.carousel-control-prev:hover, 
+.carousel-control-next:hover
+{
   color: #fff;
   text-decoration: none;
   outline: 0;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .carousel-control-prev {
@@ -5743,8 +5744,8 @@ textarea.form-control-lg {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;

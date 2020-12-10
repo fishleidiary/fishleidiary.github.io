@@ -1,19 +1,37 @@
-$(function() {
-  $(".container1,.container2").hide();
+$(function () {
+  $(".container1,.container2,.container3").hide();
 
-  $(".nav-item1").click(function() {
-    $(".container2").fadeOut(200);
+  $(".nav-item1").click(function () {
+    $(".container2,.container3").fadeOut(0);
     $(".container1")
       .delay(300)
       .fadeIn(250);
   });
 
-  $(".nav-item2").click(function() {
-    $(".container1").fadeOut(200);
+  $(".nav-item2").click(function () {
+    $(".container1,.container3").fadeOut(0);
     $(".container2")
       .delay(300)
       .fadeIn(250);
   });
+  $(".nav-item3").click(function () {
+    $(".container1,.container2").fadeOut(0);
+    $(".container3")
+      .delay(300)
+      .fadeIn(250);
+  });
+
+ 
+  // $(".nav-item1").mouseover(function () { 
+  
+  // });
+  // $(".nav-item1").mouseout(function () {
+  //   $(".nav-item1 img").attr("src", "img/button1-1.png")
+  // });
+ 
+
+
+
   // $(".menu2").click(function() {
   //   $("#desktop,#alllogo,#content2,nav").fadeOut(300);
   //   $("#aboutus")
@@ -55,4 +73,8 @@ $(function() {
   //   $(this).addClass("nohover");
   //   $(this).addClass("active");
   // });
+  // $(".menu1").click(function() {
+  //     $("nav a").removeClass("active");
+  //      $("nav a").removeClass("nohover");
+  //    });
 });

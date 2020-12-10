@@ -1,3 +1,38 @@
-.navbar {
-  background-color: rgb(255, 255, 255, 0.7);
+
+
+.carousel-inner>.item {
+  height: 475px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+body {
+  background-color: #a7deff;
+  overflow: hidden;
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+  -webkit-filter: drop-shadow(7px 7px 3px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(7px 7px 3px rgba(0, 0, 0, 0.7))
+}
+
+.main {
+  position: absolute;
+  background-color:rgba(255, 255, 255, 0.5);
+}
+
+.nav-link {
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  transition: opacity 1s;
+}
+.img1:hover {
+  opacity: 0;
 }
