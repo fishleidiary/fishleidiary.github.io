@@ -1,7 +1,14 @@
 $(function () {
   $(".container1,.container2,.container3").hide();
-
   $(".nav-item1").click(function () {
+    $(".nav-item1 .img1").attr("src", "img/button1-3.png");
+    $(".nav-item1 .img2").attr("src", "img/button1-3.png");
+    $(".nav-item2 .img2-1").attr("src", "img/button2-1.png");
+    $(".nav-item2 .img2-2").attr("src", "img/button2-2.png");
+    $(".nav-item3 .img3-1").attr("src", "img/button3-1.png");
+    $(".nav-item3 .img3-2").attr("src", "img/button3-2.png");
+    $(".nav-item4 .img4-1").attr("src", "img/button4-1.png");
+    $(".nav-item4 .img4-2").attr("src", "img/button4-2.png");
     $(".container2,.container3").fadeOut(0);
     $(".container1")
       .delay(300)
@@ -9,30 +16,50 @@ $(function () {
   });
 
   $(".nav-item2").click(function () {
+    $(".nav-item2 .img1").attr("src", "img/button2-3.png");
+    $(".nav-item2 .img2").attr("src", "img/button2-3.png");
+    $(".nav-item1 .img1-1").attr("src", "img/button1-1.png");
+    $(".nav-item1 .img1-2").attr("src", "img/button1-2.png");
+    $(".nav-item3 .img3-1").attr("src", "img/button3-1.png");
+    $(".nav-item3 .img3-2").attr("src", "img/button3-2.png");
+    $(".nav-item4 .img4-1").attr("src", "img/button4-1.png");
+    $(".nav-item4 .img4-2").attr("src", "img/button4-2.png");
     $(".container1,.container3").fadeOut(0);
     $(".container2")
       .delay(300)
       .fadeIn(250);
   });
-  
+
   $(".nav-item3").click(function () {
+    $(".nav-item3 .img1").attr("src", "img/button3-3.png");
+    $(".nav-item3 .img2").attr("src", "img/button3-3.png");
+    $(".nav-item1 .img1-1").attr("src", "img/button1-1.png");
+    $(".nav-item1 .img1-2").attr("src", "img/button1-2.png");
+    $(".nav-item2 .img2-1").attr("src", "img/button2-1.png");
+    $(".nav-item2 .img2-2").attr("src", "img/button2-2.png");
+    $(".nav-item4 .img4-1").attr("src", "img/button4-1.png");
+    $(".nav-item4 .img4-2").attr("src", "img/button4-2.png");
     $(".container1,.container2").fadeOut(0);
     $(".container3")
       .delay(300)
       .fadeIn(250);
   });
 
- 
-  // $(".nav-item1").mouseover(function () { 
-  
-  // });
-  // $(".nav-item1").mouseout(function () {
-  //   $(".nav-item1 img").attr("src", "img/button1-1.png")
-  // });
- 
 
-
-
+  $(".nav-item4").click(function () {
+    $(".nav-item4 .img1").attr("src", "img/button4-3.png");
+    $(".nav-item4 .img2").attr("src", "img/button4-3.png");
+    $(".nav-item1 .img1-1").attr("src", "img/button1-1.png");
+    $(".nav-item1 .img1-2").attr("src", "img/button1-2.png");
+    $(".nav-item2 .img2-1").attr("src", "img/button2-1.png");
+    $(".nav-item2 .img2-2").attr("src", "img/button2-2.png");
+    $(".nav-item3 .img3-1").attr("src", "img/button3-1.png");
+    $(".nav-item3 .img3-2").attr("src", "img/button3-2.png");
+    $(".container1,.container2").fadeOut(0);
+    $(".container3")
+      .delay(300)
+      .fadeIn(250);
+  });
   // $(".menu2").click(function() {
   //   $("#desktop,#alllogo,#content2,nav").fadeOut(300);
   //   $("#aboutus")
