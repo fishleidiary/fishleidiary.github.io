@@ -1,5 +1,5 @@
-$(function () {
-  $(".container1,.container2,.container3").hide();
+$( document ).ready(function() {
+  $(".container1,.container2,.container3,.container4").hide();
   $(".nav-item1").click(function () {
     $(".nav-item1 .img1").attr("src", "img/button1-3.png");
     $(".nav-item1 .img2").attr("src", "img/button1-3.png");
@@ -9,7 +9,7 @@ $(function () {
     $(".nav-item3 .img3-2").attr("src", "img/button3-2.png");
     $(".nav-item4 .img4-1").attr("src", "img/button4-1.png");
     $(".nav-item4 .img4-2").attr("src", "img/button4-2.png");
-    $(".container2,.container3").fadeOut(0);
+    $(".container2,.container3,.container4").fadeOut(0);
     $(".container1")
       .delay(300)
       .fadeIn(250);
@@ -24,7 +24,7 @@ $(function () {
     $(".nav-item3 .img3-2").attr("src", "img/button3-2.png");
     $(".nav-item4 .img4-1").attr("src", "img/button4-1.png");
     $(".nav-item4 .img4-2").attr("src", "img/button4-2.png");
-    $(".container1,.container3").fadeOut(0);
+    $(".container1,.container3,.container4").fadeOut(0);
     $(".container2")
       .delay(300)
       .fadeIn(250);
@@ -39,7 +39,7 @@ $(function () {
     $(".nav-item2 .img2-2").attr("src", "img/button2-2.png");
     $(".nav-item4 .img4-1").attr("src", "img/button4-1.png");
     $(".nav-item4 .img4-2").attr("src", "img/button4-2.png");
-    $(".container1,.container2").fadeOut(0);
+    $(".container1,.container2,.container4").fadeOut(0);
     $(".container3")
       .delay(300)
       .fadeIn(250);
@@ -55,8 +55,8 @@ $(function () {
     $(".nav-item2 .img2-2").attr("src", "img/button2-2.png");
     $(".nav-item3 .img3-1").attr("src", "img/button3-1.png");
     $(".nav-item3 .img3-2").attr("src", "img/button3-2.png");
-    $(".container1,.container2").fadeOut(0);
-    $(".container3")
+    $(".container1,.container2,.container3").fadeOut(0);
+    $(".container4")
       .delay(300)
       .fadeIn(250);
   });
@@ -106,3 +106,4 @@ $(function () {
   //      $("nav a").removeClass("nohover");
   //    });
 });
+
