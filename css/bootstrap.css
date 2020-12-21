@@ -5712,7 +5712,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 25%;
+  width: 33%;
   color: #fff;
   text-align: center;
   opacity: 0.3;
@@ -5744,8 +5744,8 @@ textarea.form-control-lg {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 3rem;
-  height: 3rem;
+  width: 2.2rem;
+  height: 2.5rem;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
