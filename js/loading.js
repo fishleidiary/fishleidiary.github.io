@@ -3,9 +3,9 @@
 // });
 
 $(document).ready(function() {
-$(".loading").fadeTo(1500, 0.6);
+$(".loading").fadeTo(500, 0.7);
 
 
-setTimeout(function(){$(".loading").attr({style:"display:none"}); }, 1300);
+setTimeout(function(){$(".loading").attr({style:"display:none"}); }, 400);
 
   });
